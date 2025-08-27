@@ -1,0 +1,10 @@
+[project]
+name = "script-manager-back-py"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]",
+    "pydantic[standard]>=2.11.7",
+]
